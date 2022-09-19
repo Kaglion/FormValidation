@@ -8,6 +8,43 @@
 </head>
 <body>
 
+    <div class="box-login">
+        <h2>Inscrivez-vous</h2>
+
+        <form >
+            <div class="form-group">
+                <label for="user">User name</label>
+                <input type="text" id="user" placeholder="User name" maxlength="24">
+                <img src="ressources/check.svg" alt="validation icon" class="check-icon"  >
+                <span class="alert-msg">Choose a user name between 3 and 24 characters</span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your email" >
+                <img src="ressources/check.svg" alt="validation icon" class="check-icon" >
+                <span class="alert-msg">Enter valid email</span> 
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Your password" >
+                <img src="ressources/check.svg" alt="validation icon" class="check-icon" >
+                <span class="alert-msg">1 symbol, 1 upper case letter, 1 lower case letter</span> 
+                <div class="ligne">
+                    <div class="l1"><span>low</span></div>
+                    <div class="l2"><span>medium</span></div>
+                    <div class="l3"><span>strong</span></div> 
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="pswConfirm">Password confirm</label>
+                <input type="password" id="pswConfirm" placeholder="Confirm your password" >
+                <img src="ressources/check.svg" alt="validation icon" class="check-icon" >
+            </div>
+
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+
     <script src="app.js"></script>
 </body>
 </html>
